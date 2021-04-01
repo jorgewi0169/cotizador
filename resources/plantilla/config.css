@@ -1,0 +1,166 @@
+.slide-fade-enter {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+    transition: all 0.2s ease;
+}
+
+.slide-fade-leave-to {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+
+.center-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal-backdrop {
+    background: #00000067;
+}
+
+.button-library-group {
+
+    background-color: #727cf5 !important;
+    border-color: #727cf5 !important;
+    color: #fff !important;
+}
+
+.button-library-group:hover {
+    color: #fff !important;
+    background-color: #384ad7 !important;
+    border-color: #384ad7 !important;
+}
+
+.button-library-group:focus {
+    background-color: #384ad7 !important;
+}
+
+
+.el-select .el-input {
+    width: 110px;
+}
+
+.input-with-select .el-input-group__prepend {
+    background-color: #fff;
+}
+
+select.form-control.auto {
+    width: auto;
+}
+
+.main-content {
+    position: relative;
+    padding: 15px 5px 0 5px;
+}
+
+.file-caption-name {
+    pointer-events: none;
+}
+
+.color-text-p {
+    color: #ffffff;
+}
+
+.scrollTable {
+    max-height: 350px !important;
+    overflow: auto !important;
+}
+
+.scrollTableCotizacion {
+    max-height: 500px !important;
+    overflow: auto !important;
+}
+
+.scrollTableSeguimiento {
+    max-height: 450px !important;
+    overflow: auto !important;
+}
+
+.bloquear {
+    pointer-events: none
+}
+
+.vs-input {
+    width: 100% !important;
+}
+
+.el-input-number {
+    width: 100% !important;
+}
+
+.table-rojo {
+    background-color: #FA5C7C !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* .file-preview {
+    width: 250px !important;
+}
+*/
+/* .fileinput-remove-button {
+    background-color: #ff5630;
+    border-color: #ff5630;
+    color: rgb(255, 255, 255);
+}
+
+.fileinput-remove-button:hover {
+    background-color: #f4061e;
+    color: rgb(255, 255, 255);
+} */
+
+.img-table {
+    width: 100px;
+}
+
+.ecaps-logo a img {
+    max-height: 55px !important;
+}
+
+.nav-link-icon:hover {
+    background-color: #727cf5;/*#727cf5*/
+    color: #ffffff;
+}
+
+.nav-link-icon {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #acb4ce;
+    margin: 0 10px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+
+.nav-link-icon-bjar:hover {
+    background-color:red;/*#727cf5*/
+    color: #ffffff;
+}
+
+.nav-link-icon-bjar {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin: 0 10px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
